@@ -7,6 +7,8 @@ import string
 # And to get help on specific members/properties/functions:
 #print(f"{string.ascii_letters}")
 #print(f"{string.ascii_lowercase}")
+vowels = "aeiouy"
+consonants = "bcdfghjklmnpqrstvwxz"
 
 import random
 # Learn more about random:
@@ -32,10 +34,10 @@ while input_flag != '3':
 
     # Check if the user wants a vowel
     if input_flag == '1':
-        name += random.choice("aeiouy")
+        name += random.choice(vowels)
     # Check if the user wants a consonant
     elif input_flag == '2':
-        name += random.choice('bcdfghjklmnpqrstvwxz')
+        name += random.choice(consonants)
     # Check if the user wants a specific character.
     elif input_flag != '3':
         name += input_flag

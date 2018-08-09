@@ -1,0 +1,2 @@
+With all the excitement over my potential niece/nephew, we're making a baby name generator!
+With specific named parameters, this simple project is perfect for demonstrating some concepts like input and constraints to my younger siblings.
